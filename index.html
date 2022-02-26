@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>   
+        <title>NUMBER CLASSIFIER</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <center>
+        <h1><b>NUMBER CLASSIFIER</b></h1>
+        
+        <canvas id="myCanvas" width="280" height="280" style="outline: green 3px solid;"></canvas>
+      
+        <div class=""buttonBar">
+    
+            <button class="button clear" onclick="_clear()">CLEAR</button>
+            <button class="button draw" onclick="draw()">DRAW</button>
+            <button class="button erase" onclick="erase()">ERASE</button>
+            <button class="button predict" onclick="predict()">PREDICT</button>
+        </div>
+    </center>
+      <!-- <p id="prediction">{{prediction}}</p> --> 
+        <script src="/static/main.js"></script>
+    </body>
+</html>
